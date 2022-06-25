@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node 14",
+
+  "typeAcquisition": {
+
+  },
+  "compilerOptions": {
+    "lib": ["es2020"],
+    "module": "commonjs",
+    "target": "es2020",
+    "sourceMap": true,
+    "declaration": true,
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    
+    "rootDir": ".",
+    "experimentalDecorators": true,
+    "outDir": "dist/"
+  },
+  "include": [
+    "index.ts"
+  ],
+  "exclude": [
+    "dist"
+  ]
+}
